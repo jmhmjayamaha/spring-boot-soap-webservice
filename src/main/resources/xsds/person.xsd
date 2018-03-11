@@ -34,7 +34,7 @@
 	<xs:element name="addPersonResponse">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element name="serviceStatus" type="tns:personInfo"></xs:element>
+				<xs:element name="serviceStatus" type="tns:serviceStatus"></xs:element>
 				<xs:element name="personInfo" type="tns:personInfo"></xs:element>
 			</xs:sequence>
 		</xs:complexType>
