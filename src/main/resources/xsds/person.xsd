@@ -1,0 +1,24 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:tns="http://www.example.com/person-ws" targetNamespace="http://www.example.com/person-ws"
+	elementFormDefault="qualified">
+	
+	<xs:complexType name="personInfo">
+		<xs:sequence>
+			<xs:element name="firstName" type="xs:string"></xs:element>
+			<xs:element name="lastName" type="xs:string"></xs:element>
+			<xs:element name="age" type="xs:long"></xs:element>
+			<xs:element name="address" type="xs:string"></xs:element>
+			<xs:element name="email" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="serviceStatus">
+		<xs:sequence>
+			<xs:element name="statusCode" type="xs:string"></xs:element>
+			<xs:element name="message" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	
+	
+</xs:schema>
